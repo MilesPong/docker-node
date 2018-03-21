@@ -8,6 +8,10 @@ A modified docker node image based on official [node:alpine](https://hub.docker.
 $ docker run --rm -v $(pwd):/app -w /app milespeng/node:alpine npm install
 ```
 
+## Supported Tags
+
+- [`alpine`](https://github.com/MilesPong/docker-node/blob/master/Dockerfile)
+
 ## Changed
 
 - Have [cnpm](https://github.com/cnpm/cnpm) installed
